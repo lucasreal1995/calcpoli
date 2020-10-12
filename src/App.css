@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+<input id="DisplayResultado" type="text" value="" readonly /><br></br>
+<input id="DisplaySecundario" type="text" value="" readonly /><br></br>
+<button id="1" type="number1" class="number"> 1</button>
+<button id="2" type="number2" class="number"> 2</button>
+<button id="3" type="number3" class="number"> 3</button>
+<button id="X" type="multiply" class="operator"> X</button><br></br>
+<button id="4" type="number4" class="number"> 4</button>
+<button id="5" type="number5" class="number"> 5</button>
+<button id="6" type="number6" class="number"> 6</button>
+<button id="/" type="divisor" class="operator"> /</button><br></br>
+<button id="7" type="number7" class="number"> 7</button>
+<button id="8" type="number8" class="number"> 8</button>
+<button id="9" type="number9" class="number"> 9</button>
+<button id="+" type="plus" class="operator"> +</button><br></br>
+<button id="," type="decimal" class="decimal"> ,</button>
+<button id="0" type="number0" class="number"> 0</button>
+<button id="=" type="equal" class="operator"> =</button>
+<button id="-" type="minus" class="operator"> -</button><br></br>
+<button id="limpar" type="clear" class="clear"> limpar</button><br></br>
